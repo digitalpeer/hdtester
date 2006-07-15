@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: hdtester - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP437.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"bin/hdtester.pch" /YX /Fo"bin/" /Fd"bin/" /FD /GZ /c 
+"H:\sb\hdtester\src\hdtester.cpp"
+"H:\sb\hdtester\src\main.cpp"
+"H:\sb\hdtester\src\timer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP437.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP438.tmp" with contents
+[
+winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"bin/hdtester.pdb" /debug /machine:I386 /out:"bin/hdtester.exe" /pdbtype:sept 
+.\bin\hdtester.obj
+.\bin\main.obj
+.\bin\timer.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP438.tmp"
+<h3>Output Window</h3>
+Compiling...
+hdtester.cpp
+main.cpp
+timer.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+hdtester.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
