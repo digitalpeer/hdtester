@@ -1,8 +1,8 @@
 /*
    $Id: hdtester.cpp,v 1.3 2004/09/18 03:31:28 dp Exp $
-                                                                                                                             
+
    hdtester
-                                                                                                                             
+
    Copyright (C) 2004, J.D. Henderson <www.digitalpeer.com>
 
    This program is free software; you can redistribute it and/or modify
@@ -111,7 +111,7 @@ bool HdTester::read(string path)
 
 	cout << "Done in " << end-start << "ms."<< endl;
 
-	
+
 	return true;
 }
 
